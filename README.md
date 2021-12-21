@@ -11,11 +11,12 @@
 
 1.  **Install package.**
 
+    ```
     npm i
     ```
 
 2.  **Start developing.**
-
+    ```
     npm run develop
     ```
 
