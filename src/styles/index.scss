@@ -1,0 +1,35 @@
+@import "node_modules/bulma/bulma.sass";
+@import "./header.scss";
+@import "./hero.scss";
+@import "./aboutMe.scss";
+@import "./skillset.scss";
+@import "./works.scss";
+@import "./contactMe.scss";
+@import "./footer.scss";
+html{
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+    .linearGradient{
+        position: relative;
+        z-index: 9;
+        background: #181824;
+    }
+    .linearGradient:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right:70%;
+        bottom: 0%;
+        left: 0;
+        background: black;
+    }
+}
+@media (min-width: 360px) {
+    .linearGradient{
+        position: relative;
+        z-index: 9;
+    }
+}

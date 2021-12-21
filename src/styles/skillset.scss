@@ -1,0 +1,154 @@
+
+@media (min-width: 1280px){
+    .skillSet{
+        margin: 80px 40px 120px;
+        &__firstColumn{
+            margin-right: 30px;
+            &-title{
+                font-size: 40px;
+                color:white;
+                margin-bottom: 20px;
+            }
+            &-text{
+                color: #89888F;
+                font-size: 18px;
+            }
+        }
+        &__blockColumn{
+            margin-right: 20px;
+        }
+
+    }
+    .blockSkillset{
+        margin-bottom: 40px;
+        &-image{
+            width:30px;
+            height:30px;
+            margin-bottom: 10px;
+        }
+        &-title{
+            font-size: 25px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        &-text{
+            font-size: 15px;
+            color: #89888F;
+        }
+    }
+    .skillSetSlide{
+        margin-right: 40px;
+        & > .column{
+            border: 1px solid #89888f62;
+            text-align: center;
+        }
+        &-image{
+            height: 40px;
+            margin: 50px;
+
+        }
+    }
+}
+@media (min-width: 768px){
+
+    .skillSet{
+        margin: 80px 40px 120px;
+        &__firstColumn{
+            margin-right: 30px;
+            &-title{
+                font-size: 40px;
+                color:white;
+                margin-bottom: 20px;
+            }
+            &-text{
+                color: #89888F;
+                font-size: 18px;
+            }
+        }
+        display: block !important;
+        &__blockColumn{
+            margin-right: 20px;
+            display: flex;
+        }
+    }
+    .blockSkillset{
+        margin-right: 70px;
+        margin-top: 20px;
+        &-image{
+            width:30px;
+            height:30px;
+            margin-bottom: 10px;
+        }
+        &-title{
+            font-size: 25px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        &-text{
+            font-size: 15px;
+            color: #89888F;
+        }
+    }
+    .skillSetSlide{
+        margin-right: 40px;
+        & > .column{
+            border: 1px solid #89888f62;
+            text-align: center;
+        }
+        &-image{
+            height: 40px;
+            margin: 50px;
+
+        }
+    }
+}
+@media (min-width: 360px){
+    .skillSet{
+        margin: 30px 20px;
+        & > .column{
+            padding: 0;
+        }
+        &__firstColumn{
+            &-title{
+                font-size: 40px;
+                color:white;
+                margin-bottom: 20px;
+            }
+            &-text{
+                color: #89888F;
+                font-size: 18px;
+            }
+        }
+
+    }
+    .blockSkillset{
+        margin-top: 30px;
+        &-image{
+            width:30px;
+            height:30px;
+            margin-bottom: 10px;
+        }
+        &-title{
+            font-size: 25px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        &-text{
+            font-size: 15px;
+            color: #89888F;
+        }
+    }
+    .skillSetSlide{
+        margin-right: 40px;
+        & > .column{
+            border: 1px solid #89888f62;
+            text-align: center;
+        }
+        &-image{
+            height: 40px;
+            margin: 50px;
+
+        }
+    }
+
+}

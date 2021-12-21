@@ -1,0 +1,42 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby Site",
+  "author": "lordartemio02",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@types/react-burger-menu": "^2.8.2",
+    "bulma": "^0.9.3",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.2.9",
+    "gatsby": "^4.2.0",
+    "gatsby-plugin-image": "^2.2.0",
+    "gatsby-plugin-sass": "^5.2.0",
+    "gatsby-plugin-sharp": "^4.2.0",
+    "gatsby-source-filesystem": "^4.2.0",
+    "gatsby-transformer-sharp": "^4.2.0",
+    "joi": "^17.5.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.1",
+    "sass": "^1.43.5",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "node-sass": "^6.0.1"
+  }
+}

@@ -1,0 +1,31 @@
+.header{
+    &__links{
+        &-navbar{
+            background-color: transparent;
+        }
+    }
+}
+.navbar-item{
+    &-link{
+        color: white;
+    }
+}
+.navBar{
+    min-height: 3.25rem;
+    position: relative;
+    z-index: 30;
+}
+@media (min-width: 360) {
+    .header__links-desktop{
+        display: none;
+    }
+}
+@media (min-width: 768) {
+    .header__links-desktop{
+        display: block;
+    }
+    .navbar-end{
+        display: none;
+    }
+}
+
